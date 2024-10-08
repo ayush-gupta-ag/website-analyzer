@@ -6,11 +6,11 @@ import socket
 app = Flask(__name__)
 
 
-SECURITYTRAILS_API_KEY = 'l0QGaJUvyL3JvJdwWNK03uZAsiRNV3gI'
+SECURITYTRAILS_API_KEY = 'write your api'
 
-IPGEOLOCATION_API_KEY = '484c571ff0c44f22838a597e3f493931'
+IPGEOLOCATION_API_KEY = 'write your api'
 
-IPDATA_API_KEY = '0f417adefe8998cd790bc808b51e7a1e0e57b5870723177a4c31f55b'
+IPDATA_API_KEY = 'write your api'
 
 @app.route('/')
 def analyze_website():
